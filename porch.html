@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="monsterStyle.css">
+    <script src="monster.js" ></script>
+    <title>Porch</title>
+</head>
+<body>
+    <div class="nav">
+        <a href="index.html">HOMESTEAD</a>
+        <a href="partyzone.html">PARTY ZONE</a>
+        <a href="trucklyfe.html">MONSTER TRUCK LYFE</a>
+        <a href="poetry.html">POETRY</a>
+        <a href="porch.html">THE PORCH</a>
+    </div>
+
+    <img src="Monster/porchred.jpg" alt="porch" id="porch">
+
+    <section class="message-board">
+        <div class="title">
+            
+            <p>We all know that if you wanna hava a real conversation<br>
+            you better get your butt to the porch. Feel free to get REAL<br>
+            here. No matter what, honest opinions are respected AND<br>
+            appreciated even if you're a Chevy owner.</p>
+            <h2>LEAVE A MESSAGE</h2>
+        </div>
+      
+        <form>
+          <textarea class="message" type="text" id="userInput"></textarea><br/>
+        </form>
+      
+        <input type="submit" onclick="showInput();">
+        <div class="display-area">
+          Existing comment:
+        </div>
+        <p><span id="display"></span></p>
+      </section>
+</body>
+</html>
